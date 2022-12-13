@@ -1,0 +1,101 @@
+@font-face {
+    font-family:Poppins-SemiBold;
+    src: url(../fonts/Poppins-SemiBold.otf);
+}
+@font-face {
+    font-family:Poppins-Medium;
+    src: url(../fonts/Poppins-Medium.otf);
+}
+@font-face {
+    font-family:Poppins-Light;
+    src: url(../fonts/Poppins-Light.otf);
+}
+@font-face {
+    font-family:Poppins-ExtraLight;
+    src: url(../fonts/Poppins-ExtraLight.otf);
+}
+
+
+* {
+  outline: none !important;
+}
+
+body {
+ 
+  outline: none;
+  overflow-x: hidden ;
+  font-family:Poppins-Light;
+  transition: all 0.3s ease-in-out 0s;
+  margin:0px;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+}
+a:hover,
+a:focus {
+  text-decoration: none;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+img{
+	max-width:100%;
+}
+
+
+
+
+.back{
+	float:left;
+	width:100%;
+	background-image:url(../demoim/slide1.jpg);
+	background-repeat: no-repeat;
+	background-size:cover;
+	background-position:center;
+	-webkit-transition: all 1s ease-in-out 0s;
+    -moz-transition: all 1s ease-in-out 0s;
+    -o-transition: all 1s ease-in-out 0s;
+	transition: all 1s ease-in-out 0s;
+}
+
+.democl{
+	float:left;
+	width:100%;
+	min-height:300px;
+	position:relative;
+}
+
+.head1,.head2,.head3,.head4,.head5,.head6{
+	-webkit-transition: all 1s ease-in-out 0s;
+    -moz-transition: all 1s ease-in-out 0s;
+    -o-transition: all 1s ease-in-out 0s;
+	transition: all 1s ease-in-out 0s;
+	cursor:pointer;
+	border: 1px solid rgba(255,255,255,1);
+}
+.pad-none{
+	padding:0;
+}
+.back h2{
+	color: #fff;
+    text-align: right;
+    position: absolute;
+    right: 25px;
+    bottom: 0;
+	font-size: 18px;
+}
+.head1 p,.head2 p,.head3 p,.head4 p,.head5 p,.head6 p{
+	color: #fff;
+    position: absolute;
+    right: 25px;
+    top: 10px;
+	opacity:0;
+	-webkit-transition: all 1s ease-in-out 0s;
+    -moz-transition: all 1s ease-in-out 0s;
+    -o-transition: all 1s ease-in-out 0s;
+	transition: all 1s ease-in-out 0s;	
+}

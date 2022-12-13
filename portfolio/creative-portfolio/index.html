@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Jquery Creative Portfolio</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+      <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+      <meta content="width" name="MobileOptimized"/>
+      <meta name="theme-color" content="#eb4e85"/>
+      <meta content="true" name="HandheldFriendly"/>
+      <meta content="width=device-width" name="viewport"/>
+      <meta name="description" content="Codestir is a personal website developed by Harsh Rana who is a Front-End developer by profession."/>
+      <meta name="keywords" content="harsh, rana, harsh rana, Front-End developer, websites, developer, code-stir, code, stir, codestir , front end "/>
+      <meta name="author" content="Harsh Rana"/>
+      <meta http-equiv="content-language" content="english"/>
+      <meta http-equiv="x-dns-prefetch-control" content="on"/>
+      <link rel="canonical" href="http://code-stir.com"/>
+      <meta name="dcterms.rightsHolder" content="Harsh Rana"/>
+      <meta property="og:url" content="http://code-stir.com"/>
+      <meta property="og:image" content=""/>
+      <meta property="og:description" content="Codestir is a personal website developed by Harsh Rana who is a Front-End developer by profession."/>
+      <meta property="og:title" content="Harsh Rana | Front-End Developer | Codestir"/>
+      <meta property="og:site_name" content="Codestir"/>
+      <meta property="og:see_also" content="http://code-stir.com"/>
+      <meta property="og:type" content="website"/>
+      <link rel="apple-touch-icon" sizes="180x180" href="../../images/apple-touch-icon.png">
+      <link rel="icon" type="png" sizes="32x32" href="../../images/favicon-32x32.png">
+      <link rel="icon" type="png" sizes="16x16" href="../../images/favicon-16x16.png">
+	  <link href="css/bootstrap.min.css" rel="stylesheet">
+		<link href="css/style.css" rel="stylesheet">
+  </head>
+  <body>
+  
+  
+  <div class="port-wrap">
+  	  <h1>Jquery Creative Portfolio</h1>
+   <div class="back">
+      <div class="container-fluid pad-none">
+         <div class="col-sm-6 col-md-4 pad-none">
+            <a href="#" target="_blank" rel="noopener noreferrer">
+               <div class="democl head1">
+                  <h2>Technology 1</h2>
+                  <h3>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</h3>
+               </div>
+            </a>
+         </div>
+         <div class="col-sm-6 col-md-4 pad-none">
+            <a href="#" target="_blank" rel="noopener noreferrer">
+               <div class="democl head2">
+                  <h2>Technology 2</h2>
+                  <h3>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</h3>
+               </div>
+         </div>
+         </a>
+         <div class="col-sm-6 col-md-4 pad-none">
+            <a href="#" target="_blank" rel="noopener noreferrer">
+               <div class="democl head3">
+                  <h2>Technology 3</h2>
+                  <h3>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</h3>
+               </div>
+         </div>
+         </a>
+         <div class="col-sm-6 col-md-4 pad-none">
+            <a href="#" target="_blank" rel="noopener noreferrer">
+               <div class="democl head4">
+                  <h2>Technology 4</h2>
+                  <h3>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</h3>
+               </div>
+            </a>
+         </div>
+         <div class="col-sm-6 col-md-4 pad-none">
+            <a href="#" target="_blank" rel="noopener noreferrer">
+               <div class="democl head5">
+                  <h2>Technology 5</h2>
+                  <h3>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</h3>
+               </div>
+            </a>
+         </div>
+         <div class="col-sm-6 col-md-4 pad-none">
+            <a href="#" target="_blank" rel="noopener noreferrer">
+               <div class="democl head6">
+                  <h2>Technology 6</h2>
+                  <h3>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</h3>
+               </div>
+            </a>
+         </div>
+      </div>
+   </div>
+  </div>
+
+	
+	
+	
+	<script src="js/jquery-3.2.1.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>	
+	
+<script>
+
+</script>
+<script>
+   $(document).ready(function() {
+    $(".head1").hover(
+    function() {
+		$('.head1').addClass('back-color');
+		$(".head1 h3").css('opacity', '1');
+		$('.head1 ,.head2 ,.head3 ,.head4 ,.head5 ,.head6').addClass("back-img");
+		$('.back').css('background-image', 'url(images/k1.jpg)');
+    }, function() {
+		$('.head1').removeClass('back-color');
+		$('.head1, .head2 ,.head3 ,.head4 ,.head5 ,.head6').removeClass("back-img");
+		$(".head1 h3").css('opacity', '0');
+		$('.back').css('background-image', 'none');
+    });
+	$(".head2").hover(
+    function() {
+		$('.head2').addClass('back-color');
+		$(".head2 h3").css('opacity', '1');
+		$('.head1 ,.head2 ,.head3 ,.head4 ,.head5 ,.head6').addClass("back-img");		
+		$('.back').css('background-image', 'url(images/k2.jpg)');
+    }, function() {
+		$('.head2').removeClass('back-color');
+		$('.head1, .head2 ,.head3 ,.head4 ,.head5 ,.head6').removeClass("back-img");
+		$(".head2 h3").css('opacity', '0');
+		$('.back').css('background-image', 'none');
+    });
+	$(".head3").hover(
+    function() {
+		$('.head3').addClass('back-color');
+		$(".head3 h3").css('opacity', '1');
+		$('.head1 ,.head2 ,.head3 ,.head4 ,.head5 ,.head6').addClass("back-img");		
+		$('.back').css('background-image', 'url(images/k3.jpg)');
+    }, function() {
+		$('.head3').removeClass('back-color');
+		$('.head1, .head2 ,.head3 ,.head4 ,.head5 ,.head6').removeClass("back-img");		
+		$(".head3 h3").css('opacity', '0');
+		$('.back').css('background-image', 'none');
+    });
+	$(".head4").hover(
+    function() {
+		$('.head4').addClass('back-color');
+		$(".head4 h3").css('opacity', '1');
+		$('.head1 ,.head2 ,.head3 ,.head4 ,.head5 ,.head6').addClass("back-img");		
+		$('.back').css('background-image', 'url(images/k4.jpg)');
+    }, function() {
+		$('.head4').removeClass('back-color');
+		$('.head1, .head2 ,.head3 ,.head4 ,.head5 ,.head6').removeClass("back-img");		
+		$(".head4 h3").css('opacity', '0');
+		$('.back').css('background-image', 'none');
+    });
+	$(".head5").hover(
+    function() {
+		$('.head5').addClass('back-color');
+		$(".head5 h3").css('opacity', '1');
+		$('.head1 ,.head2 ,.head3 ,.head4 ,.head5 ,.head6').addClass("back-img");		
+		$('.back').css('background-image', 'url(images/k5.jpg)');
+    }, function() {
+		$('.head5').removeClass('back-color');
+		$('.head1, .head2 ,.head3 ,.head4 ,.head5 ,.head6').removeClass("back-img");		
+		$(".head5 h3").css('opacity', '0');
+		$('.back').css('background-image', 'none');
+    });	
+	$(".head6").hover(
+    function() {
+		$('.head6').addClass('back-color');
+		$(".head6 h3").css('opacity', '1');
+		$('.head1 ,.head2 ,.head3 ,.head4 ,.head5 ,.head6').addClass("back-img");		
+		$('.back').css('background-image', 'url(images/k6.jpg)');
+    }, function() {
+		$('.head6').removeClass('back-color');
+		$('.head1, .head2 ,.head3 ,.head4 ,.head5 ,.head6').removeClass("back-img");		
+		$(".head6 h3").css('opacity', '0');
+		$('.back').css('background-image', 'none');
+    });		
+});
+</script>
+ </body>
+</html>
