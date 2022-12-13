@@ -16,6 +16,10 @@ $(".sidenav-menu a").click(function () {
 
 
 
+
+
+ 
+
          $('.navbar-nav a').on('click', function(e) {
          $('.navbar-toggle').toggleClass("collapsed");
 		 $('.navbar-toggle').attr("aria-expanded","false");
@@ -32,7 +36,11 @@ $(".sidenav-menu a").click(function () {
          e.preventDefault();
          });       
 
-
+         $('#home').on('click', function(e) {
+          $('.about, .skills, .work, .contact').css("display","none");
+      $('.front-wrap').css("display","block");
+          e.preventDefault();
+          }); 
 
          $('#ab').on('click', function(e) {
          $('.front-wrap, .skills, .work, .contact').css("display","none");
